@@ -1,0 +1,22 @@
+# Local environments and generated files
+.venv/
+node_modules/
+dist/
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+
+# Duplicates of dashboard/public/data; only the public copies are needed
+/data/
+
+# Empty lockfile at the workspace root (dashboard has the real package lock)
+/package-lock.json
