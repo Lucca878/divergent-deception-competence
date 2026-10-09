@@ -39,7 +39,7 @@ function App() {
   return (
     <main className="app">
       <header className="hero">
-        <h1>Divergent Deceptive Competence in Humans and Generative Language Models</h1>
+        <h1>Adversarial Attacks Reveal Divergent Deception Competence in Humans and Generative Language Models</h1>
       </header>
       <section className="section-tabs card">
         {TABS.map(([value, label]) => (
